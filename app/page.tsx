@@ -1,13 +1,13 @@
 export default function Home() {
   return (
-    <main className="bg-gray-300 h-screen flex items-center justify-center p-5">
-      <div className="bg-white shadow-lg p-5 rounded-2xl w-full max-w-screen-sm flex flex-col gap-2">
+    <main className="bg-gray-300 h-screen flex items-center justify-center p-5 sm:bg-red-100 md:bg-green-100 lg:bg-cy-100 xl:bg-orange-100 2xl:bg-purple-100">
+      <div className="bg-white shadow-lg p-5 rounded-2xl w-full max-w-screen-sm flex flex-col md:flex-row gap-2">
         <input
           className="w-full rounded-full h-12 bg-gray-200 pl-5 outline-none ring ring-transparent focus:ring-orange-500 focus:ring-offset-2 transition-shadow placeholder:text-blue-500 "
           type="text"
           placeholder="Search here..."
         />
-        <button className="bg-black text-white py-2 rounded-full active:scale-90 transition-transform font-medium focus:scale-90 outline-none">
+        <button className="bg-black text-white py-2 rounded-full active:scale-90 transition-transform font-medium focus:scale-90 outline-none md:px-8">
           Search
         </button>
       </div>

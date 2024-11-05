@@ -1,8 +1,8 @@
-interface FormButtonProps {
+interface FormBtnProps {
   loading: boolean;
   text: string;
 }
-const FormButton = ({ loading, text }: FormButtonProps) => {
+const FormBtn = ({ loading, text }: FormBtnProps) => {
   return (
     <button disabled={loading} className="primary-btn h-10 disabled:bg-neutral-400 disabled:text-neutral-300 disabled:cursor-not-allowed">
       {loading ? "Loading" : text}
@@ -10,5 +10,5 @@ const FormButton = ({ loading, text }: FormButtonProps) => {
   );
 };
 
-export default FormButton;
+export default FormBtn;
  

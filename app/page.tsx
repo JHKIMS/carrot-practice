@@ -10,7 +10,7 @@ export default function Home() {
           <span className="group-focus-within:block hidden">
             Make sure it is a valid email...
           </span>
-          <button>Submit</button>
+          <button className="btn">Submit</button>
         </div>
       </div>
     </main>

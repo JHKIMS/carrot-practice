@@ -8,7 +8,6 @@ const config: Config = {
   ],
   theme: {},
   plugins: [
-    require("@tailwindcss/forms")
   ],
 };
 export default config;

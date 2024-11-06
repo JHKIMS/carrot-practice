@@ -20,28 +20,28 @@ const CreateAccount = () => {
             type="text"
             placeholder="Username"
             required
-            errors={[]}
+            errors={state?.fieldErrors.username}
         />
         <FormInput
             name="email"
             type="email"
             placeholder="Email"
             required
-            errors={[]}
+            errors={state?.fieldErrors.email}
         />
         <FormInput
             name="password"
             type="password"
             placeholder="password"
             required
-            errors={[]}
+            errors={state?.fieldErrors.password}
         />
         <FormInput
             name="confirmPass"
             type="password"
             placeholder="Confirm Password"
             required
-            errors={[]}
+            errors={state?.fieldErrors.confirmPass}
         />
         <FormBtn text="Crate Account"/>
       </form>

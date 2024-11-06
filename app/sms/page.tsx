@@ -10,18 +10,20 @@ const SMSLogin = () => {
       </div>
       <form className="flex flex-col gap-3">
         <FormInput
+            name="phoneNumber"
             type="number"
             placeholder="Phone number"
             required
             errors={[]}
         />
         <FormInput
+            name="vertifyCode"
             type="number"
             placeholder="Vertification code"
             required
             errors={[]}
         />
-        <FormBtn loading={false} text="Verify"/>
+        <FormBtn text="Verify"/>
       </form>
     </div>
   );

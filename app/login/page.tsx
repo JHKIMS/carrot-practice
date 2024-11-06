@@ -28,7 +28,7 @@ const Login = () => {
           required
           errors={[]}
         />
-        <FormBtn loading={false} text="Login" />
+        <FormBtn text="Login" />
       </form>
       <SocialLogin />
     </div>
